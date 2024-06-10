@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Ice-cream Soda';
+    src: url('fonts/icecreamsoda.ttf');
+}
+html {
+    font-size: 20px;
+    font-family: 'Ice-cream Soda', 'Calibri', sans-serif;
+    background-color: black;
+}
+body {margin: 0;}
+header {
+    background-color: #00eeff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.05rem;
+    padding: 0.3rem;
+}
+#logo {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+#logo h1{
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+#navigation  {
+    min-width: 30%;
+    max-width: 50%;
+}
+#navigation ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+#navigation li {
+    list-style: none;
+}
+#navigation a {
+    list-style: none;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+#navigation a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+main {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#presentation {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.frigos_modeles {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+    margin: 2%;
+    column-gap: 2%;
+}
+#presentation img {
+    width: 30%;
+}
+.frigos_titres {
+    color: #00eeff;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+.frigos_descr {
+    color : white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+@media screen and (max-width: 840px) {
+    #presentation {
+        width: 100%;
+    }
+    #presentation img {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    main {
+        height: max-content;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0 0 0;
+    }
+    #navigation {
+        min-width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    #navigation ul {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #navigation li {
+        width: 70%;
+        margin: 1rem;
+    }
+    #presentation {
+        height: max-content;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    #presentation img {
+        width: 30%;
+    }
+    .frigos_modeles {
+        width: 80%;
+    }
+}
