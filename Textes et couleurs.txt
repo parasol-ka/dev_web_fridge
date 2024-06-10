@@ -1,0 +1,33 @@
+=== COULEURS ===
+
+Cyan : 00eeff
+Blanc : ffffff
+Noir : 000000
+
+=== TEXTES ===
+
+Les titres et la navigation sont dans la police "icecreamsoda"
+Les descriptions de produits sont en arial
+La navigation se souligne en hover
+
+Frigonnect
+
+Connexion
+Catalogue
+Contact
+
+Le standart
+Entrée de gamme, fiable et écologique
+Fonctionne sur Android 67 uniquement
+
+Le classico
+Classique, meilleur rapport qualité-prix
+Compatible Android et iOS
+
+Le pingouin
+Retour aux années 80 garanti
+Compatible Android et iOS
+
+Le monarque
+Pour un usage intensif en entreprise
+Compatible Android uniquement
